@@ -1,0 +1,74 @@
+\documentclass[a4paper]{extarticle}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{graphicx} % libreria per le immagini
+\usepackage{amssymb} %libreria per i simboli (ex. alfabeto reco)
+\usepackage{algorithm2e} %libreria per scrivere pseudocodice
+\usepackage{longtable}
+\usepackage{caption}
+\usepackage{lastpage}
+\usepackage{adjustbox}
+\usepackage{ellipsis}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{mathtools}
+
+\definecolor{backcolour}{rgb}{0.95,0.95,0.96}
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour},
+	numbers=left,
+	numbersep=5pt,
+}
+\lstset{style=mystyle, escapeinside={(*}{*)}}
+
+\setlength{\parindent}{0em}%indentazione paragrafo
+\setlength{\parskip}{1em}%spazio tra paragrafi
+\renewcommand{\baselinestretch}{1.3}%interlinea
+\graphicspath{ {./} }
+\geometry{
+    a4paper,
+    left=10mm,
+    right=10mm,
+    bottom=20mm
+}
+
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,      
+    urlcolor=blue,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Federico Calò}
+\lhead{Appunti economia}
+\cfoot{  \thepage }
+
+
+\title{Appunti economia}
+\author{\href{http://www.federicocalo.dev}{Federico Calò} }
+\date{}
+
+\begin{document}
+\maketitle
+\newpage
+\tableofcontents
+\voffset -30pt
+
+\newpage
+
+\section*{Premessa}
+
+Questi appunti hanno lo scopo specifico di creare una conoscenza nel dominio economico per chi volesse affacciarsi a questa materia. Io sono Federico Calò, sviluppatore software con un diploma di tecnico commerciale. Sono cresciuto immerso nell'economia, in quanto mio padre ha condotto studi in questa materia e lavora nell'ambito bancario. Il mio scopo attuale è quello di unire l'ambito bancario a quello informatico, creando gestionali che supportano la gestione aziendale, dagli organigrammi alla creazione del bilancio dell'esercizio, organizzando in maniera corretta i dati all'interno dei database.
+
+
+\end{document}
+
+
+
